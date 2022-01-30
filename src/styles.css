@@ -1,0 +1,31 @@
+*,*::after,*::before{
+    padding: 0 !important;
+    margin:0 !important;
+}
+.MuiCard-root{
+    background:hsl(216, 50%, 16%) !important;
+    max-width: 18vw !important;
+    padding: 1rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content:center !important;
+    align-items:center !important;
+    border-radius: 0.6rem !important;
+}
+
+.active-element{
+    color:white;
+    font-weight:600;
+}
+.active-element:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+@media screen and (max-width:700px) {
+    .MuiCard-root{
+        min-width: 70vw!important;
+        padding: 1.3rem !important;
+    }
+    
+}
